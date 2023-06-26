@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
-    <a class="navbar-brand" href="/">Demo App</a>
+    <a class="navbar-brand" href="/"><img src="https://whiteams.winsurtech.com/assets/logo3-8d18ff79.png" alt="logo"></a><h3 class="heading">Dashboard</h3>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,5 +27,14 @@ export default {
 <style scoped>
 nav{
   background-color: transparent !important;
+}
+img{
+  width:11rem;
+}
+.heading{
+  color: white;
+  font-weight: bold;
+  padding: 0px 10px;
+  margin-top: 17px;
 }
 </style>

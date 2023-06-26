@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid mt-3">
         <div class="row">
-            <div class="col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">John Doe</h4>
@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">John Doe</h4>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">John Doe</h4>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">John Doe</h4>
@@ -89,9 +89,6 @@ export default {
 </script>
 
 <style scoped>
-.row .col-md-3 {
-    padding: 0px 20px;
-}
 
 .container-fluid.mt-3 {
     min-height: calc(100vh - 72px);
@@ -112,6 +109,7 @@ export default {
 
 .card{
     box-shadow: 1px 2px 12px gray;
+    margin-bottom: 5px;
 }
 </style>
   
