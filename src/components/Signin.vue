@@ -3,10 +3,10 @@
         <div class="card w-50">
             <form action="/">
                 <div class="form-group">
-                    <input type="email" class="form-control mb-3" placeholder="Enter Username" required/>
+                    <input type="email" class="form-control mb-3" placeholder="Enter Username" />
                 </div>
                 <div class="form-group">
-                    <input type="Password" class="form-control mb-3" placeholder="Enter Password" required/>
+                    <input type="Password" class="form-control mb-3" placeholder="Enter Password" />
                 </div>
                 <div class="form-group">
                     <input class="form-control btn btn-primary mb-3" type="submit" href="/" value="Log In"/>
